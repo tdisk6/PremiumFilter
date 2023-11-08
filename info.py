@@ -18,8 +18,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '5541164881:AAFbyROJbpEvfERf-e143y_qjezC5NK
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS', 'https://graph.org/file/1dc1524efc5eece13c300.jpg
-https://graph.org/file/8552adf8f81ab81cd10d2.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/1dc1524efc5eece13c300.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1583548599').split()]
@@ -37,7 +36,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001725041810'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001955037355'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
