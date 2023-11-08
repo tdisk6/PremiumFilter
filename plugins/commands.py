@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
            InlineKeyboardButton('😊 Support 😊', url='https://t.me/nkmupdateschannel2'),
-            InlineKeyboardButton('😊 Support 😊', url='https://t.me/nkmupdateschannel')
+            InlineKeyboardButton('😊 Support 😊', url='https://t.me/nkmupdateschannel2')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -64,7 +64,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Jᴏɪɴ Uᴩᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 😜", url=invite_link.invite_link
+                    "🤖 Jᴏɪɴ Uᴩᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 😜", url='https://t.me/+d3v4XCJfI_5kZWI1')
                 )
             ]
         ]
